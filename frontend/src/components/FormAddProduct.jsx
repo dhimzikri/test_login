@@ -26,63 +26,6 @@ const FormAddProduct = () => {
   };
 
   return (
-    // <div>
-    //   <h1 className="title">Products</h1>
-    //   <h2 className="subtitle">Add New Product</h2>
-    //   <div className="card is-shadowless">
-    //     <div className="card-content">
-    //       <div className="content">
-    //         <form onSubmit={saveProduct}>
-    //           <p className="has-text-centered">{msg}</p>
-    //           <div className="field">
-    //             <label className="label">Name</label>
-    //             <div className="control">
-    //               <input
-    //                 type="text"
-    //                 className="input"
-    //                 value={name}
-    //                 onChange={(e) => setName(e.target.value)}
-    //                 placeholder="Product Name"
-    //               />
-    //             </div>
-    //           </div>
-    //           <div className="field">
-    //             <label className="label">Harga Beli</label>
-    //             <div className="control">
-    //               <input
-    //                 type="text"
-    //                 className="input"
-    //                 value={harga_beli}
-    //                 onChange={(e) => setharga_beli(e.target.value)}
-    //                 placeholder="Price"
-    //               />
-    //             </div>
-    //           </div>
-    //           <div className="field">
-    //             <label className="label">Harga Jual</label>
-    //             <div className="control">
-    //               <input
-    //                 type="text"
-    //                 className="input"
-    //                 value={harga_jual}
-    //                 onChange={(e) => setharga_jual(e.target.value)}
-    //                 placeholder="Price"
-    //               />
-    //             </div>
-    //           </div>
-
-    //           <div className="field">
-    //             <div className="control">
-    //               <button type="submit" className="button is-success">
-    //                 Save
-    //               </button>
-    //             </div>
-    //           </div>
-    //         </form>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
     <div className=" w-full min-h-screen mx-auto flex justify-center items-center bg-dark2 px-60">
       <div className="flex flex-col w-full">
         <div className="overflow-x-auto w-full">
