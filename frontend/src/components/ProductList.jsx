@@ -24,7 +24,7 @@ const ProductList = () => {
   if (user && user.role !== "admin") {
     // for User page
     return (
-      <div className=" w-full h-fullcontainer mx-auto mt-14 px-60 bg-dark2">
+      <div className=" w-full h-full container mx-auto mt-14 px-60 bg-dark2">
       <div className="flex flex-col ">
         <div className="overflow-x-auto">
           <div className="py-3 pl-2 w-full h-full">
